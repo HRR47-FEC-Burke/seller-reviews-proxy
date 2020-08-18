@@ -7,6 +7,7 @@
 
 #flexbox {
   display: flex;
+  margin-left: 7.5%;
 }
 
 #main-photo > div {
@@ -16,24 +17,25 @@
 
 #main-photo {
   position: relative;
-  width: 702px;
-  margin-left: 6.8rem;
+  width: 43.75em;
   grid-row: 1/2;
   grid-column: 1/2;
 }
 
 #sb {
-  margin-left: 3rem;
+  margin-left: 7.5%;
 }
 
 #reviews {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   grid-row: 2/3;
   grid-column: 1/2;
-  margin-left: 4.1rem;
   width: 36vw;
-  min-width: 340px;
-  max-width: 700px;
+  min-width: 21.25em;
+  max-width: 43.75em;
 }
 
 #sln {
