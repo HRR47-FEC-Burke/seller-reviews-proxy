@@ -1,3 +1,7 @@
+#app {
+  margin-left: 0%;
+}
+
 #grid {
   display: grid;
   grid-template-columns: auto;
@@ -7,6 +11,16 @@
 
 #flexbox {
   display: flex;
+  margin-left: 7.5%;
+}
+
+#flexbox2 {
+  display: flex;
+}
+@media only screen and (max-width: 1024px) {
+  #flexbox2 {
+    margin-left: 3%;
+  }
 }
 
 #main-photo > div {
@@ -16,26 +30,31 @@
 
 #main-photo {
   position: relative;
-  width: 702px;
-  margin-left: 6.8rem;
+  width: 43.75em;
   grid-row: 1/2;
   grid-column: 1/2;
 }
 
 #sb {
-  margin-left: 5.5rem;
+  margin-left: 7.5%;
+  padding-right: 7.5%;
 }
 
 #reviews {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   grid-row: 2/3;
   grid-column: 1/2;
-  margin-left: 4.1rem;
-  width: 36vw;
-  min-width: 340px;
-  max-width: 700px;
+  width: 43.75em;
 }
 
 #sln {
   position: relative;
+}
+@media only screen and (max-width: 768px) {
+  #sln {
+    margin-left: 5%;
+  }
 }
