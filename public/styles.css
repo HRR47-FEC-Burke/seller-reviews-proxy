@@ -1,3 +1,7 @@
+#app {
+  margin-left: 0%;
+}
+
 #grid {
   display: grid;
   grid-template-columns: auto;
@@ -8,6 +12,15 @@
 #flexbox {
   display: flex;
   margin-left: 7.5%;
+}
+
+#flexbox2 {
+  display: flex;
+}
+@media only screen and (max-width: 1024px) {
+  #flexbox2 {
+    margin-left: 3%;
+  }
 }
 
 #main-photo > div {
@@ -39,4 +52,9 @@
 
 #sln {
   position: relative;
+}
+@media only screen and (max-width: 768px) {
+  #sln {
+    margin-left: 5%;
+  }
 }
