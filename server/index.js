@@ -26,6 +26,11 @@ app.use('*/photo/api', createProxyMiddleware({
   changeOrigin: true
 }));
 
+app.use('*/sb/api', createProxyMiddleware({
+  target: 'http://15.164.155.96',
+  changeOrigin: true
+}));
+
 app.listen(port, () => {
   console.log('Listening in on port', port);
 });
