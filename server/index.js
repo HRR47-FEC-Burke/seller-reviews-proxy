@@ -12,7 +12,17 @@ const port = 3000;
 app.use('/item/:user', express.static(path.join(__dirname, './../public')));
 
 app.use('*/reviews/api', createProxyMiddleware({
-  target: 'http://localhost:2625',
+  target: 'http://50.18.135.245',
+  changeOrigin: true
+}));
+
+app.use('*/sln/api', createProxyMiddleware({
+  target: 'http://50.18.3.201',
+  changeOrigin: true
+}));
+
+app.use('*/photo/api', createProxyMiddleware({
+  target: 'http://3.23.171.227',
   changeOrigin: true
 }));
 
