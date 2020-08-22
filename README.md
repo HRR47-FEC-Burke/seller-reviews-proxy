@@ -1,5 +1,5 @@
 # seller-reviews-proxy
-The proxy for the seller reviews component.
+A proxy server to serve the ReBurke modules for a listing page.
 
 ## Related Projects
 
