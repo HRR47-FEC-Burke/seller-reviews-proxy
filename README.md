@@ -10,6 +10,11 @@ The proxy for the seller reviews component.
 
 ## Table of Contents
 
+1. [Usage](#Usage)
+2. [Requirements](#Requirements)
+3. [Development](#Deployment)
+4. [Deployment](#Deployment)
+
 ## Usage
 
 > Example URL: http://localhost:3000/item/23
